@@ -1,5 +1,54 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
 }
+.hero
+{
+    height: 100vh;
+}
+ /* project section */
+.menu {
+    height: 10vh;
+    background-color: black;
 
+}
+.main {
+    height: 80vh;
+    display: flex;
+    gap: 3vh;
+    padding: 3vh;
+    flex-wrap: wrap;
+}
+.card {
+    background-image: url(images/face.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vh;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+
+}
+.large {
+    height:45vh;
+    width: 45vh;
+}
+.medium {
+    height:45vh;
+    width: 45vh;
+}
+.small {
+    height:45vh;
+    width: 45vh;
+}
+.smaller {
+    height:45vh;
+    width: 45vh;
+}
+.footer{
+    height: 10vh;
+    background-color: brown;
+}
