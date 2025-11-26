@@ -1,3 +1,4 @@
+ /* index */
 body {
     margin: 0;
     padding: 0;
@@ -7,48 +8,23 @@ body {
 {
     height: 100vh;
 }
- /* project section */
+ /* projects */
 .menu {
     height: 10vh;
     background-color: black;
 
 }
-.main {
-    height: 80vh;
+.container {
     display: flex;
-    gap: 3vh;
-    padding: 3vh;
-    flex-wrap: wrap;
+    gap: 20px;
+   
 }
 .card {
-    background-image: url(images/face.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 2vh;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease;
+    width:200px;
+    height:200px;
+    background-color: steelblue;
 }
 .card:hover {
     transform: scale(1.05);
 
-}
-.large {
-    height:45vh;
-    width: 45vh;
-}
-.medium {
-    height:45vh;
-    width: 45vh;
-}
-.small {
-    height:45vh;
-    width: 45vh;
-}
-.smaller {
-    height:45vh;
-    width: 45vh;
-}
-.footer{
-    height: 10vh;
-    background-color: brown;
 }
